@@ -1,0 +1,25 @@
+# Configuration file for polarity_tf_pipeline.py
+
+# FDSN client settings
+fdsn:
+  client: "host_to_fdsn_server"  # or "GFZ", "USGS", etc.
+  auth:
+    username: "your_username"
+    password: "your_password"
+
+fdsn_inv:
+  client: "host_to_fdsn_server_for_inventory"  # or "GFZ", "USGS", etc.
+
+# TauPy model for theoretical S arrival
+taup_model: "iasp91"
+
+# Cache directory for waveforms
+cache_dir: "./waveform_cache"
+
+# Resample rate for waveforms (Hz)
+resample_rate: 100
+
+# Model input settings
+model:
+  sample_rate: 100  # Should match resample_rate
+  window_length: 0.25  # seconds for polarity window

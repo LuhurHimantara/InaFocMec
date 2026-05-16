@@ -1,0 +1,2 @@
+event_id,strike,dip,rake,quality,fault_plane_uncertainty,aux_plane_uncertainty,num_p_pol,num_sp_ratios,azimuthal_gap,takeoff_gap,polarity_misfit,prob_mech,sta_distribution_ratio,sp_misfit,mult_solution_flag,time,magnitude,origin_lat,origin_lon,origin_depth_km,horz_uncert_km,vert_uncert_km
+bmg2026gkek,358.6,42.3,41.0,D,51.0,44.6,41,41,102.8,77.0,40.2,29.0,53.2,-16.0,False,2026-04-01 22:48:14,7.21003408,1.322945,126.239563,33.0,2.0,2.0
